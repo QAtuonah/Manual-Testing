@@ -17,7 +17,7 @@ To demonstrate:
 E-commerce simulation app used to test login flows, cart behavior, and checkout process.
 
 - [`Test_Cases`](./saucedemo/Test_Cases): Functional test cases (login, cart, checkout, etc.)
-- [`BugReports.md`](./saucedemo/BugReports.md): Documented issues and observations
+- [`BugReports.md`]([./saucedemo/BugReports.md](https://github.com/QAtuonah/QA-Manual-Projects/blob/main/QA-Manual-Projects/saucedemo/BugReports.md)): Documented issues and observations
 
 ### 🔹 HerokuApp  
 **URL:** [https://the-internet.herokuapp.com](https://the-internet.herokuapp.com)  
