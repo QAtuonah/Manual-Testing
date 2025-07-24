@@ -1,32 +1,32 @@
 # 🧪 SauceDemo Manual Test Cases
 
 **Tested URL:** https://www.saucedemo.com/  
-**Environment:** Desktop - Chrome / Firefox  
+**Environment:** Desktop - Chrome
 
 ## 🔹 1. Login Functionality
 
-| ID   | Title              | Steps                                                                 | Expected Result                                |
-|------|--------------------|------------------------------------------------------------------------|------------------------------------------------|
-| TC01 | Valid Login        | 1. Open site<br>2. Enter `standard_user` / `secret_sauce`<br>3. Click login | Redirect to product page                        |
-| TC02 | Invalid Login      | 1. Enter `invalid_user` / `wrong_pass`<br>2. Click login              | Error message shown                             |
-| TC03 | Locked User Login  | 1. Enter `locked_out_user` / `secret_sauce`<br>2. Click login         | Lockout message displayed                       |
+| ID   | Title                | Steps                                                                       | Expected Result                 |
+|------|----------------------|-----------------------------------------------------------------------------|---------------------------------|
+| TC01 | Valid Login          | 1. Open site<br>2. Enter `standard_user` / `secret_sauce`<br>3. Click login | Redirect to product page        |
+| TC02 | Invalid Login        | 1. Enter `invalid_user` / `wrong_pass`<br>2. Click login                    | Error message shown             |
+| TC03 | Locked User Login    | 1. Enter `locked_out_user` / `secret_sauce`<br>2. Click login               | Lockout message displayed       |
 
 ## 🔹 2. Shopping Cart
 
-| ID   | Title                | Steps                                                        | Expected Result               |
-|------|----------------------|---------------------------------------------------------------|-------------------------------|
-| TC04 | Add Product to Cart  | 1. Login<br>2. Add product<br>3. Click cart icon             | Product appears in cart       |
-| TC05 | Remove from Cart     | 1. Add product<br>2. Go to cart<br>3. Click remove           | Product is removed            |
+| ID   | Title                | Steps                                                                       | Expected Result                 |
+|------|----------------------|-----------------------------------------------------------------------------|---------------------------------|
+| TC04 | Add Product to Cart  | 1. Login<br>2. Add product<br>3. Click cart icon                            | Product appears in cart         |
+| TC05 | Remove from Cart     | 1. Add product<br>2. Go to cart<br>3. Click remove                          | Product is removed              |
 
 ## 🔹 3. Checkout Process
 
-| ID   | Title              | Steps                                                                  | Expected Result                     |
-|------|--------------------|------------------------------------------------------------------------|-------------------------------------|
-| TC06 | Checkout Flow      | 1. Add product<br>2. Checkout<br>3. Fill info<br>4. Finish             | Order confirmation page appears     |
-| TC07 | Missing Info Error | Skip first/last name or ZIP during checkout                           | Error message shown                 |
+| ID   | Title                | Steps                                                                       | Expected Result                 |
+|------|----------------------|-----------------------------------------------------------------------------|---------------------------------|
+| TC06 | Checkout Flow        | 1. Add product<br>2. Checkout<br>3. Fill info<br>4. Finish                  | Order confirmation page appears |
+| TC07 | Missing Info Error   | Skip first/last name or ZIP during checkout                                 | Error message shown             |
 
 ## 🔹 4. Logout
 
-| ID   | Title            | Steps                                      | Expected Result               |
-|------|------------------|---------------------------------------------|-------------------------------|
-| TC08 | Successful Logout| 1. Login<br>2. Open menu<br>3. Click Logout | Redirected to login page      |
+| ID   | Title                | Steps                                                                       | Expected Result                 |
+|------|----------------------|-----------------------------------------------------------------------------|---------------------------------|
+| TC08 | Successful Logout    | 1. Login<br>2. Open menu<br>3. Click Logout                                 | Redirected to login page        |
