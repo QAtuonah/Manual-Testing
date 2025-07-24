@@ -1,48 +1,30 @@
-# 🧪 QA Manual Projects
+# 🧾 QA-Manual-Projects
 
-This repository contains detailed manual test cases and bug reports for publicly available web applications. It is designed to showcase practical QA skills in test case design, bug documentation, and structured testing.
+This repository contains manual QA testing projects showcasing test case design, exploratory testing, and bug reporting for real-world websites and applications.
 
-## 📌 Purpose
+## 🔍 Purpose
 
-To demonstrate:
-- Proficiency in writing clear, reproducible manual test cases
-- Structured bug reporting
-- Analytical thinking and attention to detail
-- QA documentation best practices
-
-## 📂 Projects
-
-### 🔹 SauceDemo  
-**URL:** [https://www.saucedemo.com](https://www.saucedemo.com)  
-E-commerce simulation app used to test login flows, cart behavior, and checkout process.
-
-- [`Test_Cases`](./saucedemo/Test_Cases): Functional test cases (login, cart, checkout, etc.)
-- [`BugReports.md`]([./saucedemo/BugReports.md]): Documented issues and observations
-
-### 🔹 HerokuApp  
-**URL:** [https://the-internet.herokuapp.com](https://the-internet.herokuapp.com)  
-A testing playground with multiple UI components such as dropdowns, alerts, file upload, and more.
-
-- [`Test_Cases.md`](./herokuapp/Test_Cases.md): Functional test coverage across multiple components
-- [`BugReports.md`](./herokuapp/BugReports.md): Identified bugs with severity and steps to reproduce
-
-## 📄 Structure
-
-Each project includes:
-- `TestCases.md`: Clearly structured manual test cases in table format  
-- `BugReports.md`: Reported issues with reproduction steps, expected vs. actual results, and severity levels
-
-## 📈 Future Additions
-
-- New apps with complex workflows
-- UI exploratory testing reports
-- Test case templates and reusable models
-
-## 🔗 Author
-
-**Christopher Atuonah**  
-[LinkedIn](https://www.linkedin.com/in/qatheonah) | [GitHub](https://github.com/QAtuonah)
+Demonstrate core competencies in manual quality assurance through:
+- Well-structured test cases
+- Reproducible bug reports
+- Exploratory testing sessions
+- Documentation of test results
 
 ---
 
-> *This repository is part of an ongoing journey to refine and share manual QA practices, and eventually integrate automated testing alongside them.*
+## 📁 Projects Included
+
+### 1. [saucedemo.com](https://www.saucedemo.com/)
+- ✅ Login testing
+- ✅ Inventory and product validation
+- ✅ Cart functionality
+- ✅ Checkout flow
+- 🐞 Documented bugs with evidence (screenshots/logs)
+
+### 2. [the-internet.herokuapp.com](https://the-internet.herokuapp.com/)
+- ✅ Element interactions (checkboxes, dropdowns, alerts)
+- ✅ Page behavior validation (dynamic content, loading, redirects)
+- ✅ UI/UX consistency
+- 🐞 Bug reports and edge case coverage
+
+---
