@@ -16,14 +16,14 @@ To demonstrate:
 **URL:** [https://www.saucedemo.com](https://www.saucedemo.com)  
 E-commerce simulation app used to test login flows, cart behavior, and checkout process.
 
-- [`TestCases`](./saucedemo/Test_Cases): Functional test cases (login, cart, checkout, etc.)
+- [`Test_Cases`](./saucedemo/Test_Cases): Functional test cases (login, cart, checkout, etc.)
 - [`BugReports.md`](./saucedemo/BugReports.md): Documented issues and observations
 
 ### 🔹 HerokuApp  
 **URL:** [https://the-internet.herokuapp.com](https://the-internet.herokuapp.com)  
 A testing playground with multiple UI components such as dropdowns, alerts, file upload, and more.
 
-- [`TestCases.md`](./herokuapp/Test_Cases.md): Functional test coverage across multiple components
+- [`Test_Cases.md`](./herokuapp/Test_Cases.md): Functional test coverage across multiple components
 - [`BugReports.md`](./herokuapp/BugReports.md): Identified bugs with severity and steps to reproduce
 
 ## 📄 Structure
