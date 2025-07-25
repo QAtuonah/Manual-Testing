@@ -1,4 +1,4 @@
-# 🧾 QA-Manual-Projects
+# 🧾 Manual-Testing-Projects
 
 This repository contains manual QA testing projects showcasing test case design, exploratory testing, and bug reporting for real-world websites and applications.
 
