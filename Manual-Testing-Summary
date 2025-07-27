@@ -1,0 +1,49 @@
+# 📘 Manual Test Case Guide
+
+## ✅ What is a Manual Test Case?
+
+A manual test case is a documented set of steps, conditions, and test data created to verify that a system or application behaves as expected — **without using automation tools**.
+
+---
+
+## 🧩 Structure of a Manual Test Case
+
+| Section         | Description                                                                 |
+|-----------------|-----------------------------------------------------------------------------|
+| **Test Case ID**     | A unique identifier (e.g., `TC-001`, `LOGIN-01`)                             |
+| **Title**           | Brief description of the feature being tested (e.g., Login validation)      |
+| **Pre-conditions**  | State or setup required before executing the test (e.g., user must be registered) |
+| **Test Data**       | Specific inputs used in the test (e.g., email, password)                    |
+| **Test Steps**      | A clear, numbered list of actions the tester should perform                 |
+| **Expected Result** | The correct behavior the system should show                                |
+| **Actual Result**   | What the system actually did (filled after test execution)                 |
+| **Status**          | Pass / Fail / Blocked                                                      |
+| **Notes/Evidence**  | Optional field for screenshots, logs, or context                           |
+
+---
+
+## 🧠 Key Manual Testing Tips
+
+- ✍️ Write clear and concise test steps — anyone should be able to follow them.
+- 🔍 Think like a user: test edge cases, invalid inputs, and weird behaviors.
+- 🔁 Include both **happy paths** and **negative paths**.
+- 📚 Review requirement documentation and acceptance criteria before creating tests.
+- 🛠️ Use tools like JIRA to organize test cases.
+- 🎯 Prioritize tests based on risk, complexity, and business impact.
+- 🌐 For web apps, test across multiple browsers, screen sizes, and devices.
+
+---
+
+## 🧪 Common Types of Manual Tests
+
+- **Functional Testing** – Validate specific features work as intended.
+- **Regression Testing** – Ensure that new code doesn't break existing features.
+- **Exploratory Testing** – Freestyle testing based on intuition and product understanding.
+- **UI/UX Testing** – Validate design consistency, layout, and usability.
+- **Smoke Testing** – Quick checks to verify system stability before deeper testing.
+
+---
+
+## 🔐 Best Practice
+
+Always base your manual test cases on **clear requirements** and **keep them updated** as the product evolves.
