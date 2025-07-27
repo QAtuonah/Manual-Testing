@@ -1,0 +1,15 @@
+🛠️ Manual Testing — Crucial Tips & Notes
+
+• Understand the user story and business goal before testing
+• Think like an end-user; explore edge cases
+• Use checklists to ensure consistency
+• Document what you test (even exploratory sessions)
+• Communicate bugs clearly with steps, evidence, and priority
+• Regression testing matters — always recheck key flows
+• Learn keyboard shortcuts and tools to increase speed
+• Focus on quality, not quantity of test cases
+• Pair up with developers to understand impact of changes
+• Always validate acceptance criteria
+
+Mindset:
+Curiosity + Attention to detail + Empathy for the user = Great QA
